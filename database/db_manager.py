@@ -241,7 +241,7 @@ class DatabaseManager:
                     'probability': row[0],
                     'expected_move_pct': row[1]
                 }
-        return 0.5, 0.5
+        return None
 
     def get_statistics(self, symbol, days):
         """РџРѕР»СѓС‡Р°РµС‚ СЃС‚Р°С‚РёСЃС‚РёРєСѓ РїРѕ СЃРёРіРЅР°Р»Р°Рј Р·Р° N РґРЅРµР№"""
